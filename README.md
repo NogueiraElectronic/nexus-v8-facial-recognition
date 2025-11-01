@@ -1,127 +1,129 @@
-```
-================================================================================
-NEXUS v8.0 ULTIMATE - Advanced Face Recognition & Tracking System
-================================================================================
+# NEXUS v8.0 ULTIMATE
 
-VERSION: 8.0.0-ULTIMATE
-STATUS: Production Ready
-LICENSE: MIT
-LAST UPDATED: October 31, 2025
+<div align="center">
 
-================================================================================
-TABLE OF CONTENTS
-================================================================================
+![Version](https://img.shields.io/badge/version-8.0.0--ULTIMATE-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
+![Status](https://img.shields.io/badge/status-Production%20Ready-brightgreen.svg)
 
-1. Overview
-2. Key Features
-3. System Architecture
-4. Installation
-5. Quick Start Guide
-6. Configuration
-7. Advanced Features
-8. API Documentation
-9. Performance Benchmarks
-10. Troubleshooting
-11. Citation
-12. License
-13. Author & Contact
+**Advanced Face Recognition & Tracking System**
 
-================================================================================
-1. OVERVIEW
-================================================================================
+[Features](#-key-features) • [Installation](#-installation) • [Quick Start](#-quick-start-guide) • [Documentation](#-api-documentation) • [Performance](#-performance-benchmarks)
 
-NEXUS v8.0 ULTIMATE represents the cutting edge in automated face recognition
-and tracking technology. By combining multiple state-of-the-art deep learning
-models with advanced algorithms for social context understanding, motion
-prediction, and behavioral analysis, NEXUS delivers unprecedented accuracy and
-robustness in challenging real-world scenarios.
+</div>
 
-WHAT MAKES NEXUS DIFFERENT:
+---
 
-- 99%+ Accuracy with ensemble learning and dynamic model fusion
-- Contextually Aware via Graph Neural Networks for social relationships
-- Uncertainty Quantification using Bayesian methods
-- Self-Adaptive system that automatically adjusts thresholds
-- Real-Time Performance optimized for GPU acceleration (30+ FPS)
-- Production-Ready with comprehensive error handling
+## 📋 Table of Contents
 
-USE CASES:
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [System Architecture](#-system-architecture)
+- [Installation](#-installation)
+- [Quick Start Guide](#-quick-start-guide)
+- [Configuration](#-configuration)
+- [Advanced Features](#-advanced-features)
+- [API Documentation](#-api-documentation)
+- [Performance Benchmarks](#-performance-benchmarks)
+- [Troubleshooting](#-troubleshooting)
+- [Citation](#-citation)
+- [License](#-license)
+- [Author & Contact](#-author--contact)
 
-- Security & Surveillance: Automated monitoring of restricted areas
-- Retail Analytics: Customer flow analysis and VIP recognition
-- Smart Campus: Attendance tracking and access control
-- Law Enforcement: Person of interest identification in crowds
-- Event Management: VIP tracking and crowd behavior analysis
-- Healthcare: Patient identification and safety monitoring
+---
 
-================================================================================
-2. KEY FEATURES
-================================================================================
+## 🔍 Overview
 
-MULTI-MODEL FACE DETECTION ENSEMBLE:
+**NEXUS v8.0 ULTIMATE** represents the cutting edge in automated face recognition and tracking technology. By combining multiple state-of-the-art deep learning models with advanced algorithms for social context understanding, motion prediction, and behavioral analysis, NEXUS delivers unprecedented accuracy and robustness in challenging real-world scenarios.
 
-- MTCNN (Multi-task Cascaded Convolutional Networks)
-- MediaPipe Face Detection
-- Haar Cascade (lightweight fallback)
+### What Makes NEXUS Different
+
+- ✨ **99%+ Accuracy** with ensemble learning and dynamic model fusion
+- 🧠 **Contextually Aware** via Graph Neural Networks for social relationships
+- 📊 **Uncertainty Quantification** using Bayesian methods
+- 🔄 **Self-Adaptive** system that automatically adjusts thresholds
+- ⚡ **Real-Time Performance** optimized for GPU acceleration (30+ FPS)
+- 🚀 **Production-Ready** with comprehensive error handling
+
+### Use Cases
+
+- 🔒 **Security & Surveillance**: Automated monitoring of restricted areas
+- 🛍️ **Retail Analytics**: Customer flow analysis and VIP recognition
+- 🏫 **Smart Campus**: Attendance tracking and access control
+- 👮 **Law Enforcement**: Person of interest identification in crowds
+- 🎉 **Event Management**: VIP tracking and crowd behavior analysis
+- 🏥 **Healthcare**: Patient identification and safety monitoring
+
+---
+
+## 🌟 Key Features
+
+### Multi-Model Face Detection Ensemble
+
+- **MTCNN** (Multi-task Cascaded Convolutional Networks)
+- **MediaPipe** Face Detection
+- **Haar Cascade** (lightweight fallback)
 - Intelligent Voting System for robust detection
 - Multi-scale Detection for faces of varying sizes
 - Quality Assessment (sharpness, brightness, position)
 
-ADVANCED EMBEDDING EXTRACTION:
+### Advanced Embedding Extraction
 
-- InsightFace (ArcFace, CosFace embeddings)
-- FaceNet (Inception-ResNet v1)
+- **InsightFace** (ArcFace, CosFace embeddings)
+- **FaceNet** (Inception-ResNet v1)
 - Dynamic Fusion with learned weights
-- PCA Dimensionality Reduction (512D to 256D)
+- PCA Dimensionality Reduction (512D → 256D)
 - Whitening Transform for improved discrimination
 - Intelligent Caching for performance optimization
 
-GRAPH NEURAL NETWORK (GNN) ENHANCEMENT:
+### Graph Neural Network (GNN) Enhancement
 
-Leverages social proximity and temporal relationships
+Leverages social proximity and temporal relationships:
 - Multi-head attention mechanisms
 - 4-layer Transformer architecture
 - 8 attention heads per layer
 - Contextual embedding refinement
 
-BAYESIAN UNCERTAINTY QUANTIFICATION:
+### Bayesian Uncertainty Quantification
 
 - Monte Carlo Dropout sampling
 - Confidence Intervals for predictions
 - Uncertainty-aware Recognition
 - Adaptive Threshold Adjustment based on uncertainty
 
-PHYSICS-INFORMED MOTION PREDICTION:
+### Physics-Informed Motion Prediction
 
 - Velocity & Acceleration Tracking
 - Kalman Filtering for smooth trajectories
 - Predictive Tracking with motion damping
 - Collision Avoidance awareness
 
-BEHAVIORAL PATTERN ANALYSIS:
+### Behavioral Pattern Analysis
 
 Automatically identifies and classifies behaviors:
-- Static/Stationary - Person standing still
-- Walking - Normal pedestrian movement
-- Running - Rapid movement
-- Loitering - Erratic or suspicious patterns
-- Interacting - Social engagement detection
+- **Static/Stationary** - Person standing still
+- **Walking** - Normal pedestrian movement
+- **Running** - Rapid movement
+- **Loitering** - Erratic or suspicious patterns
+- **Interacting** - Social engagement detection
 
-ACTIVE RE-IDENTIFICATION:
+### Active Re-Identification
 
 - Lost Track Recovery within configurable time windows
 - Embedding Similarity Matching across occlusions
 - Multi-attempt Re-ID with backoff strategies
 - Cross-camera Re-ID support (future)
 
-ADAPTIVE RECOGNITION SYSTEM:
+### Adaptive Recognition System
 
 - Dynamic Threshold Learning based on environmental conditions
 - Quality-weighted Recognition prioritizes high-quality detections
 - Mode Selection: Strict, Balanced, Permissive, Adaptive
 - Real-time Performance Monitoring
 
-RICH VISUALIZATION:
+### Rich Visualization
 
 - Bounding Boxes with confidence indicators
 - Track IDs and trajectories
@@ -131,10 +133,11 @@ RICH VISUALIZATION:
 - Behavior Labels in real-time
 - Quality Score Bars
 
-================================================================================
-3. SYSTEM ARCHITECTURE
-================================================================================
+---
 
+## 🏗️ System Architecture
+
+```
 VIDEO INPUT STREAM
         |
         v
@@ -184,40 +187,48 @@ VISUALIZATION & OUTPUT
   - JSON Statistics
   - Embeddings
   - Heat Maps
+```
 
-================================================================================
-4. INSTALLATION
-================================================================================
+---
 
-PREREQUISITES:
+## 📦 Installation
 
-- Python: 3.8 or higher
-- CUDA: 11.7+ (recommended for GPU acceleration)
-- RAM: 8GB minimum, 16GB recommended
-- VRAM: 4GB+ for GPU inference
+### Prerequisites
 
-STEP 1: CLONE REPOSITORY
+- **Python**: 3.8 or higher
+- **CUDA**: 11.7+ (recommended for GPU acceleration)
+- **RAM**: 8GB minimum, 16GB recommended
+- **VRAM**: 4GB+ for GPU inference
 
+### Step 1: Clone Repository
+
+```bash
 git clone https://github.com/jesustorresdev/nexus-ultimate.git
 cd nexus-ultimate
+```
 
-STEP 2: CREATE VIRTUAL ENVIRONMENT
+### Step 2: Create Virtual Environment
 
-Using conda (recommended):
+**Using conda (recommended):**
+```bash
 conda create -n nexus python=3.9
 conda activate nexus
+```
 
-Or using venv:
+**Or using venv:**
+```bash
 python -m venv venv
-source venv/bin/activate
-(On Windows: venv\Scripts\activate)
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-STEP 3: INSTALL CORE DEPENDENCIES
+### Step 3: Install Core Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-REQUIREMENTS.TXT CONTENT:
-
+**Requirements.txt content:**
+```
 numpy>=1.21.0
 opencv-python>=4.8.0
 scikit-learn>=1.0.0
@@ -231,41 +242,55 @@ insightface>=0.7.3
 onnxruntime-gpu>=1.15.0
 torch-geometric>=2.3.0
 mediapipe>=0.10.0
+```
 
-STEP 4: DOWNLOAD PRE-TRAINED MODELS
+### Step 4: Download Pre-trained Models
 
-InsightFace models (automatic on first run):
+**InsightFace models** (automatic on first run):
+```bash
 python -c "from insightface.app import FaceAnalysis; app = FaceAnalysis(providers=['CPUExecutionProvider']); app.prepare(ctx_id=-1)"
+```
 
-FaceNet models (automatic via facenet-pytorch):
+**FaceNet models** (automatic via facenet-pytorch):
+```bash
 python -c "from facenet_pytorch import InceptionResnetV1; model = InceptionResnetV1(pretrained='vggface2')"
+```
 
-STEP 5: VERIFY INSTALLATION
+### Step 5: Verify Installation
 
+```bash
 python nexus_ultimate.py --help
+```
 
-GPU SETUP (OPTIONAL):
+### GPU Setup (Optional)
 
 Check CUDA availability:
+```bash
 python -c "import torch; print(f'CUDA Available: {torch.cuda.is_available()}')"
+```
 
 Install CUDA-specific packages:
+```bash
 pip install onnxruntime-gpu
+```
 
-================================================================================
-5. QUICK START GUIDE
-================================================================================
+---
 
-BASIC USAGE:
+## 🚀 Quick Start Guide
 
+### Basic Usage
+
+```bash
 python nexus_ultimate.py
+```
 
-This will process the default video (videos/entrada.mp4) with standard settings.
+This will process the default video (`videos/entrada.mp4`) with standard settings.
 
-CUSTOM CONFIGURATION:
+### Custom Configuration
 
-Edit the UltimateConfig class in nexus_ultimate.py:
+Edit the `UltimateConfig` class in `nexus_ultimate.py`:
 
+```python
 CONFIG = UltimateConfig(
     video_path='path/to/your/video.mp4',
     inicio_segundos=0,
@@ -277,11 +302,13 @@ CONFIG = UltimateConfig(
     save_video=True,
     save_json=True
 )
+```
 
-PREPARE REFERENCE GALLERY:
+### Prepare Reference Gallery
 
 Create a folder structure:
 
+```
 reference_gallery/
 ├── person1/
 │   ├── photo1.jpg
@@ -294,21 +321,25 @@ reference_gallery/
 └── person3/
     ├── photo1.jpg
     └── photo2.jpg
+```
 
-BEST PRACTICES FOR GALLERY IMAGES:
+### Best Practices for Gallery Images
 
-- Use high-quality, well-lit photos
-- Frontal faces work best
-- Multiple angles per person improve robustness
-- Minimum 3 images per person recommended
-- Resolution: 640x480 or higher
+- ✅ Use high-quality, well-lit photos
+- ✅ Frontal faces work best
+- ✅ Multiple angles per person improve robustness
+- ✅ Minimum 3 images per person recommended
+- ✅ Resolution: 640x480 or higher
 
-RUN PROCESSING:
+### Run Processing
 
+```bash
 python nexus_ultimate.py
+```
 
-EXPECTED OUTPUT:
+### Expected Output
 
+```
 ================================================================================
 NEXUS v8.0 ULTIMATE - INITIATING SYSTEM
 ================================================================================
@@ -323,15 +354,15 @@ MediaPipe
 
 Initializing NEXUS ULTIMATE...
 Loading detectors...
-    MTCNN detector loaded
-    MediaPipe detector loaded
-    Haar Cascade detector loaded
-    Ensemble detector ready with 3 models
+    ✓ MTCNN detector loaded
+    ✓ MediaPipe detector loaded
+    ✓ Haar Cascade detector loaded
+    ✓ Ensemble detector ready with 3 models
 
 Loading embedding extractors...
-    InsightFace extractor loaded
-    FaceNet extractor loaded
-    Embedding extractor ready with 2 models
+    ✓ InsightFace extractor loaded
+    ✓ FaceNet extractor loaded
+    ✓ Embedding extractor ready with 2 models
 
 Loading reference gallery...
     John_Doe: 5 images
@@ -340,15 +371,15 @@ Loading reference gallery...
 
 Gallery loaded: 3 people
 
-System initialized successfully
+System initialized successfully ✓
 
 Starting video processing...
-Processing: 100%
+Processing: 100% ████████████████████████████████████████
 
 Exporting results...
-    JSON saved
-    Embeddings saved
-    Visualizations saved
+    ✓ JSON saved
+    ✓ Embeddings saved
+    ✓ Visualizations saved
 
 ================================================================================
 NEXUS v8.0 ULTIMATE - PROCESSING SUMMARY
@@ -373,32 +404,40 @@ Video: output.mp4
 JSON: nexus_ultimate_results.json
 Graphs: threshold_evolution.png
 
-PROCESSING COMPLETED SUCCESSFULLY
+✓ PROCESSING COMPLETED SUCCESSFULLY
+```
 
-================================================================================
-6. CONFIGURATION
-================================================================================
+---
 
-CORE PARAMETERS:
+## ⚙️ Configuration
 
-VIDEO SETTINGS:
+### Core Parameters
+
+#### Video Settings
+```python
 video_path: str = 'videos/entrada.mp4'
 inicio_segundos: int = 0
 duracion_segundos: int = 60
 skip_frames: int = 0
+```
 
-GALLERY SETTINGS:
+#### Gallery Settings
+```python
 reference_gallery_path: str = 'reference_gallery/'
 min_reference_images: int = 3
 auto_augment_gallery: bool = True
+```
 
-SYSTEM:
+#### System
+```python
 device: str = 'cuda'
 num_workers: int = 8
 batch_size: int = 16
 use_half_precision: bool = True
+```
 
-DETECTION:
+#### Detection
+```python
 use_mtcnn: bool = True
 use_mediapipe: bool = True
 use_ensemble_detection: bool = True
@@ -406,118 +445,140 @@ face_confidence_threshold: float = 0.85
 min_face_size: int = 40
 max_face_size: int = 800
 nms_threshold: float = 0.4
+```
 
-EMBEDDING:
+#### Embedding
+```python
 use_insightface: bool = True
 use_facenet: bool = True
 embedding_dim: int = 512
 enable_pca: bool = True
 pca_components: int = 256
+```
 
-RECOGNITION:
+#### Recognition
+```python
 recognition_mode: RecognitionMode = RecognitionMode.ADAPTIVE
 base_threshold: float = 0.70
 threshold_adaptation_rate: float = 0.05
 quality_weight: float = 0.3
+```
 
-TRACKING:
+#### Tracking
+```python
 max_disappeared: int = 45
 tracking_iou_threshold: float = 0.25
 max_tracking_distance: float = 200.0
 enable_reid_tracking: bool = True
+```
 
-ADVANCED FEATURES:
+#### Advanced Features
+```python
 enable_gnn: bool = True
 enable_bayesian: bool = True
 enable_physics_motion: bool = True
 enable_behavior_analysis: bool = True
 enable_active_reid: bool = True
+```
 
-OUTPUT:
+#### Output
+```python
 output_dir: str = 'results/nexus_v8_ultimate'
 save_video: bool = True
 save_json: bool = True
 save_embeddings: bool = True
 save_heatmaps: bool = True
+```
 
-RECOGNITION MODES:
+### Recognition Modes
 
-Mode         Description                      Use Case
-------------------------------------------------------------------------
-STRICT       High precision, may miss matches Security-critical apps
-BALANCED     Good balance (default)           General surveillance
-PERMISSIVE   High recall, more false pos      Crowded environments
-ADAPTIVE     Auto-adjusts conditions          Variable lighting/quality
+| Mode | Description | Use Case |
+|------|-------------|----------|
+| **STRICT** | High precision, may miss matches | Security-critical apps |
+| **BALANCED** | Good balance (default) | General surveillance |
+| **PERMISSIVE** | High recall, more false positives | Crowded environments |
+| **ADAPTIVE** | Auto-adjusts to conditions | Variable lighting/quality |
 
-QUALITY LEVELS:
+### Quality Levels
 
-EXCELLENT (4): Large, sharp, well-lit, centered faces
-GOOD (3): Clear faces with minor issues
-FAIR (2): Acceptable but lower quality
-POOR (1): Low quality, may be rejected
+- **EXCELLENT (4)**: Large, sharp, well-lit, centered faces
+- **GOOD (3)**: Clear faces with minor issues
+- **FAIR (2)**: Acceptable but lower quality
+- **POOR (1)**: Low quality, may be rejected
 
-================================================================================
-7. ADVANCED FEATURES
-================================================================================
+---
 
-1. GRAPH NEURAL NETWORK ENHANCEMENT:
+## 🔬 Advanced Features
 
+### 1. Graph Neural Network Enhancement
+
+```python
 config.enable_gnn = True
 config.gnn_hidden_dim = 384
 config.gnn_num_layers = 4
 config.gnn_attention_heads = 8
 config.social_proximity_threshold = 300.0
+```
 
-How it works:
+**How it works:**
 - Builds a graph where nodes = faces, edges = spatial proximity
 - Multi-head attention learns relationship patterns
 - Refines embeddings based on social context
 
-2. BAYESIAN UNCERTAINTY QUANTIFICATION:
+### 2. Bayesian Uncertainty Quantification
 
+```python
 config.enable_bayesian = True
 config.num_mc_samples = 10
 config.uncertainty_threshold = 0.3
+```
 
-Output:
-- Confidence: How sure the system is (0-1)
-- Uncertainty: Variance in predictions (lower = better)
-- Decision: Only accept matches with low uncertainty
+**Output:**
+- **Confidence**: How sure the system is (0-1)
+- **Uncertainty**: Variance in predictions (lower = better)
+- **Decision**: Only accept matches with low uncertainty
 
-3. PHYSICS-INFORMED MOTION:
+### 3. Physics-Informed Motion
 
+```python
 config.enable_physics_motion = True
 config.motion_damping = 0.8
 config.motion_prediction_horizon = 20
+```
 
-Tracks:
+**Tracks:**
 - Velocity (dx/dt)
-- Acceleration (d2x/dt2)
+- Acceleration (d²x/dt²)
 - Predicted trajectories with damping
 
-4. BEHAVIORAL PATTERN ANALYSIS:
+### 4. Behavioral Pattern Analysis
 
+```python
 config.enable_behavior_analysis = True
 config.behavior_window = 120
+```
 
-Detected Patterns:
+**Detected Patterns:**
 - Static, Walking, Running, Loitering, Interacting
 
-5. ACTIVE RE-IDENTIFICATION:
+### 5. Active Re-Identification
 
+```python
 config.enable_active_reid = True
 config.reid_search_window = 60
 config.reid_similarity_threshold = 0.65
 config.max_reid_attempts = 3
+```
 
-================================================================================
-8. API DOCUMENTATION
-================================================================================
+---
 
-MAIN CLASSES:
+## 📚 API Documentation
 
-NexusUltimateSystem:
+### Main Classes
 
+#### NexusUltimateSystem
+
+```python
 from nexus_ultimate import NexusUltimateSystem, UltimateConfig
 
 config = UltimateConfig(
@@ -528,32 +589,40 @@ config = UltimateConfig(
 
 system = NexusUltimateSystem(config)
 system.process_video()
+```
 
-EnsembleDetector:
+#### EnsembleDetector
 
+```python
 detector = EnsembleDetector(config)
 detections = detector.detect(frame)
 
 for det in detections:
     print(f"Face at {det.bbox} with confidence {det.confidence}")
     print(f"Quality: {det.quality_level.name}")
+```
 
-DynamicEmbeddingExtractor:
+#### DynamicEmbeddingExtractor
 
+```python
 extractor = DynamicEmbeddingExtractor(config)
 embedding = extractor.extract(frame, detection)
 extractor.update_fusion_weights('insightface', success=True)
+```
 
-AdvancedTracker:
+#### AdvancedTracker
 
+```python
 tracker = AdvancedTracker(config)
 tracks = tracker.update(detections, frame_idx)
 
 for track in tracks:
     print(f"Track {track.track_id}: {track.person_id}")
+```
 
-OUTPUT JSON FORMAT:
+### Output JSON Format
 
+```json
 {
   "metadata": {
     "version": "8.0.0-ULTIMATE",
@@ -590,103 +659,119 @@ OUTPUT JSON FORMAT:
     "final": 0.685
   }
 }
+```
 
-================================================================================
-9. PERFORMANCE BENCHMARKS
-================================================================================
+---
 
-TEST ENVIRONMENT:
+## 📊 Performance Benchmarks
 
-GPU: NVIDIA RTX 3090 (24GB VRAM)
-CPU: AMD Ryzen 9 5950X
-RAM: 64GB DDR4
-Video: 1920x1080, 30 FPS
+### Test Environment
 
-RESULTS:
+- **GPU**: NVIDIA RTX 3090 (24GB VRAM)
+- **CPU**: AMD Ryzen 9 5950X
+- **RAM**: 64GB DDR4
+- **Video**: 1920x1080, 30 FPS
 
-Configuration            FPS    Detection  Recognition  GPU Memory
-------------------------------------------------------------------------
-Full (All Features)      26.7   98.5%      94.2%        8.2 GB
-GNN Disabled             31.4   98.5%      92.8%        6.1 GB
-Bayesian Disabled        29.3   98.5%      93.5%        7.8 GB
-CPU Only                 3.2    97.1%      93.8%        N/A
-Half Precision (FP16)    34.1   98.3%      94.0%        5.4 GB
+### Results
 
-ACCURACY BY SCENARIO:
+| Configuration | FPS | Detection | Recognition | GPU Memory |
+|---------------|-----|-----------|-------------|------------|
+| Full (All Features) | 26.7 | 98.5% | 94.2% | 8.2 GB |
+| GNN Disabled | 31.4 | 98.5% | 92.8% | 6.1 GB |
+| Bayesian Disabled | 29.3 | 98.5% | 93.5% | 7.8 GB |
+| CPU Only | 3.2 | 97.1% | 93.8% | N/A |
+| Half Precision (FP16) | 34.1 | 98.3% | 94.0% | 5.4 GB |
 
-Scenario                   Precision  Recall   F1-Score
-------------------------------------------------------------------------
-Controlled (Indoor)        96.8%      95.2%    96.0%
-Outdoor (Variable Light)   92.4%      89.7%    91.0%
-Crowded (10+ people)       88.6%      86.3%    87.4%
-Partial Occlusion          84.2%      81.5%    82.8%
+### Accuracy by Scenario
 
-================================================================================
-10. TROUBLESHOOTING
-================================================================================
+| Scenario | Precision | Recall | F1-Score |
+|----------|-----------|--------|----------|
+| Controlled (Indoor) | 96.8% | 95.2% | 96.0% |
+| Outdoor (Variable Light) | 92.4% | 89.7% | 91.0% |
+| Crowded (10+ people) | 88.6% | 86.3% | 87.4% |
+| Partial Occlusion | 84.2% | 81.5% | 82.8% |
 
-1. OUT OF MEMORY (GPU):
+---
 
-Error: CUDA out of memory
+## 🔧 Troubleshooting
 
-Solutions:
+### 1. Out of Memory (GPU)
+
+**Error:** `CUDA out of memory`
+
+**Solutions:**
+```python
 config.batch_size = 8
 config.use_half_precision = True
 config.enable_gnn = False
 config.skip_frames = 1
+```
 
-2. LOW FPS PERFORMANCE:
+### 2. Low FPS Performance
 
-Solutions:
+**Solutions:**
+```python
 config.enable_bayesian = False
 config.num_mc_samples = 5
 config.detection_scales = [1.0]
 config.pca_components = 128
+```
 
-3. POOR RECOGNITION ACCURACY:
+### 3. Poor Recognition Accuracy
 
-Solutions:
+**Solutions:**
 - Add more reference images per person
 - Use high-quality, frontal face photos
+```python
 config.recognition_mode = RecognitionMode.STRICT
 config.base_threshold = 0.60  # or 0.80
+```
 
-4. INSIGHTFACE INSTALLATION ISSUES:
+### 4. InsightFace Installation Issues
 
+```bash
 pip uninstall onnxruntime onnxruntime-gpu
 pip install onnxruntime-gpu
 pip install insightface
+```
 
-5. MEDIAPIPE NOT FOUND:
+### 5. MediaPipe Not Found
 
+```bash
 pip install mediapipe
+```
 
-PERFORMANCE TUNING:
+### Performance Tuning
 
-For Maximum Speed:
+**For Maximum Speed:**
+```python
 config.use_half_precision = True
 config.enable_gnn = False
 config.enable_bayesian = False
 config.batch_size = 32
 config.skip_frames = 1
 config.detection_scales = [1.0]
+```
 
-For Maximum Accuracy:
+**For Maximum Accuracy:**
+```python
 config.recognition_mode = RecognitionMode.STRICT
 config.enable_gnn = True
 config.enable_bayesian = True
 config.num_mc_samples = 15
 config.base_threshold = 0.75
 config.quality_weight = 0.5
+```
 
-================================================================================
-11. CITATION
-================================================================================
+---
+
+## 📖 Citation
 
 If you use NEXUS in your research or project, please cite:
 
-BIBTEX:
+### BibTeX
 
+```bibtex
 @software{nexus_ultimate_2025,
   author = {Torres Nogueira, Jesus},
   title = {NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System},
@@ -695,37 +780,160 @@ BIBTEX:
   publisher = {GitHub},
   url = {https://github.com/jesustorresdev/nexus-ultimate}
 }
+```
 
-APA STYLE:
+### APA Style
 
-Torres Nogueira, J. (2025). NEXUS v8.0 ULTIMATE: Advanced Face Recognition 
-and Tracking System (Version 8.0) [Computer software]. GitHub. 
-https://github.com/jesustorresdev/nexus-ultimate
+Torres Nogueira, J. (2025). *NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System* (Version 8.0) [Computer software]. GitHub. https://github.com/jesustorresdev/nexus-ultimate
 
-IEEE STYLE:
+### IEEE Style
 
-J. Torres Nogueira, "NEXUS v8.0 ULTIMATE: Advanced Face Recognition and 
-Tracking System," Version 8.0, GitHub, 2025. [Online]. Available: 
-https://github.com/jesustorresdev/nexus-ultimate
+J. Torres Nogueira, "NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System," Version 8.0, GitHub, 2025. [Online]. Available: https://github.com/jesustorresdev/nexus-ultimate
 
-================================================================================
-12. LICENSE
-================================================================================
+---
+
+## 📄 License
 
 MIT License
 
 Copyright (c) 2025 Jesus Torres Nogueira
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## 👤 Author & Contact
+
+**Jesus Torres Nogueira**
+
+Biotechnology Engineer & AI/ML Specialist focusing on computer vision and deep learning applications.
+
+- 🌐 **Portfolio**: [nogueiraelectronic.github.io](https://nogueiraelectronic.github.io/)
+- 💼 **LinkedIn**: [linkedin.com/in/jesustorres](https://linkedin.com/in/jesustorres)
+- 🐙 **GitHub**: [github.com/jesustorresdev](https://github.com/jesustorresdev)
+- 📧 **Email**: nogueira.electronico@gmail.com
+
+### About the Project
+
+NEXUS was developed to push the boundaries of what's possible in real-time face recognition and tracking. By combining cutting-edge deep learning techniques with classical computer vision algorithms and modern software engineering practices, NEXUS delivers production-ready performance for the most demanding applications.
+
+For more information, visit my [portfolio](https://nogueiraelectronic.github.io/).
+
+---
+
+## 🙏 Acknowledgments
+
+- **InsightFace Team**: For excellent face recognition models
+- **FaceNet Authors**: David Sandberg and contributors
+- **PyTorch Team**: For the deep learning framework
+- **PyTorch Geometric**: For GNN capabilities
+- **OpenCV Community**: For computer vision foundations
+- **MediaPipe Team**: For efficient face detection
+
+### Research Papers
+
+1. Deng, J., et al. (2019). *ArcFace: Additive Angular Margin Loss for Deep Face Recognition*. CVPR.
+2. Schroff, F., et al. (2015). *FaceNet: A Unified Embedding for Face Recognition and Clustering*. CVPR.
+3. Zhang, K., et al. (2016). *Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks*. IEEE Signal Processing Letters.
+4. Bewley, A., et al. (2016). *Simple Online and Realtime Tracking*. ICIP.
+5. Wojke, N., et al. (2017). *Simple Online and Realtime Tracking with a Deep Association Metric*. ICIP.
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><strong>Can I use this for commercial applications?</strong></summary>
+Yes, the MIT License allows commercial use.
+</details>
+
+<details>
+<summary><strong>What's the minimum hardware requirement?</strong></summary>
+CPU-only: Any modern CPU, 8GB RAM. GPU: GTX 1060 or better recommended.
+</details>
+
+<details>
+<summary><strong>How accurate is the system?</strong></summary>
+94-96% accuracy in controlled environments, 88-92% in challenging conditions.
+</details>
+
+<details>
+<summary><strong>Does it work with IP cameras?</strong></summary>
+Yes, provide the RTSP stream URL as video_path.
+</details>
+
+<details>
+<summary><strong>Can I add new people to the gallery?</strong></summary>
+Yes, add a new folder with their photos and restart.
+</details>
+
+<details>
+<summary><strong>What video formats are supported?</strong></summary>
+MP4, AVI, MOV, MKV - anything OpenCV can read.
+</details>
+
+<details>
+<summary><strong>Does it work offline?</strong></summary>
+Yes, once models are downloaded, no internet required.
+</details>
+
+<details>
+<summary><strong>Can I process multiple videos in batch?</strong></summary>
+Currently one video at a time. Batch processing coming in v8.1.
+</details>
+
+<details>
+<summary><strong>What about privacy concerns?</strong></summary>
+NEXUS processes locally. No data sent to external servers.
+</details>
+
+<details>
+<summary><strong>How do I update the system?</strong></summary>
+
+```bash
+git pull origin main
+pip install -r requirements.txt
+```
+</details>
+
+---
+
+## 💬 Support
+
+- 📖 **Documentation**: Read this README thoroughly
+- 🐛 **Bug Reports**: [Open an issue on GitHub](https://github.com/jesustorresdev/nexus-ultimate/issues)
+- 📧 **Email**: nogueira.electronico@gmail.com
+
+### Enterprise Support
+
+For commercial support, custom features, or consulting:
+
+**Contact**: nogueira.electronico@gmail.com
+
+Services:
+- Custom model training
+- Integration assistance
+- Performance optimization
+- On-site deployment
+
+---
+
+<div align="center">
+
+**[⬆ Back to Top](#nexus-v80-ultimate)**
+
+---
+
+**Made with ❤️ by [Jesus Torres Nogueira](https://nogueiraelectronic.github.io/)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-jesustorresdev-black?style=flat-square&logo=github)](https://github.com/jesustorresdev/nexus-ultimate)
+[![Website](https://img.shields.io/badge/Website-Portfolio-blue?style=flat-square&logo=google-chrome)](https://nogueiraelectronic.github.io/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:nogueira.electronico@gmail.com)
+
+*Last Updated: October 31, 2025 • Version 8.0.0-ULTIMATE • Status: Production Ready*
+
+</div>
