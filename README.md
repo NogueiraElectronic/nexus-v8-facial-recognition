@@ -409,7 +409,7 @@ Graphs: threshold_evolution.png
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Core Parameters
 
