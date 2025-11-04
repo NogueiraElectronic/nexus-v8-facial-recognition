@@ -203,7 +203,7 @@ VISUALIZATION & OUTPUT
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/jesustorresdev/nexus-ultimate.git
+git clone https://github.com/NogueiraElectronic/nexus-ultimate.git
 cd nexus-ultimate
 ```
 
@@ -778,17 +778,17 @@ If you use NEXUS in your research or project, please cite:
   year = {2025},
   version = {8.0},
   publisher = {GitHub},
-  url = {https://github.com/jesustorresdev/nexus-ultimate}
+  url = {https://github.com/NogueiraElectronic/nexus-ultimate}
 }
 ```
 
 ### APA Style
 
-Torres Nogueira, J. (2025). *NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System* (Version 8.0) [Computer software]. GitHub. https://github.com/jesustorresdev/nexus-ultimate
+Torres Nogueira, J. (2025). *NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System* (Version 8.0) [Computer software]. GitHub. https://github.com/NogueiraElectronic/nexus-ultimate
 
 ### IEEE Style
 
-J. Torres Nogueira, "NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System," Version 8.0, GitHub, 2025. [Online]. Available: https://github.com/jesustorresdev/nexus-ultimate
+J. Torres Nogueira, "NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking System," Version 8.0, GitHub, 2025. [Online]. Available: https://github.com/NogueiraElectronic/nexus-ultimate
 
 ---
 
@@ -814,7 +814,7 @@ Biotechnology Engineer & AI/ML Specialist focusing on computer vision and deep l
 
 - 🌐 **Portfolio**: [nogueiraelectronic.github.io](https://nogueiraelectronic.github.io/)
 - 💼 **LinkedIn**: [linkedin.com/in/jesustorres](https://linkedin.com/in/jesustorres)
-- 🐙 **GitHub**: [github.com/jesustorresdev](https://github.com/jesustorresdev)
+- 🐙 **GitHub**: [github.com/NogueiraElectronic](https://github.com/NogueiraElectronic)
 - 📧 **Email**: nogueira.electronico@gmail.com
 
 ### About the Project
@@ -905,7 +905,7 @@ pip install -r requirements.txt
 ## 💬 Support
 
 - 📖 **Documentation**: Read this README thoroughly
-- 🐛 **Bug Reports**: [Open an issue on GitHub](https://github.com/jesustorresdev/nexus-ultimate/issues)
+- 🐛 **Bug Reports**: [Open an issue on GitHub](https://github.com/NogueiraElectronic/nexus-ultimate/issues)
 - 📧 **Email**: nogueira.electronico@gmail.com
 
 ### Enterprise Support
@@ -930,7 +930,7 @@ Services:
 
 **Made with ❤️ by [Jesus Torres Nogueira](https://nogueiraelectronic.github.io/)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-jesustorresdev-black?style=flat-square&logo=github)](https://github.com/jesustorresdev/nexus-ultimate)
+[![GitHub](https://img.shields.io/badge/GitHub-NogueiraElectronic-black?style=flat-square&logo=github)](https://github.com/NogueiraElectronic/nexus-ultimate)
 [![Website](https://img.shields.io/badge/Website-Portfolio-blue?style=flat-square&logo=google-chrome)](https://nogueiraelectronic.github.io/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:nogueira.electronico@gmail.com)
 
