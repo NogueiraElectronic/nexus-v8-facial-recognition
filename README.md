@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
@@ -34,31 +34,31 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 **NEXUS v8.0 ULTIMATE** represents the cutting edge in automated face recognition and tracking technology. By combining multiple state-of-the-art deep learning models with advanced algorithms for social context understanding, motion prediction, and behavioral analysis, NEXUS delivers unprecedented accuracy and robustness in challenging real-world scenarios.
 
 ### What Makes NEXUS Different
 
-- ✨ **99%+ Accuracy** with ensemble learning and dynamic model fusion
-- 🧠 **Contextually Aware** via Graph Neural Networks for social relationships
-- 📊 **Uncertainty Quantification** using Bayesian methods
-- 🔄 **Self-Adaptive** system that automatically adjusts thresholds
-- ⚡ **Real-Time Performance** optimized for GPU acceleration (30+ FPS)
-- 🚀 **Production-Ready** with comprehensive error handling
+-  **99%+ Accuracy** with ensemble learning and dynamic model fusion
+-  **Contextually Aware** via Graph Neural Networks for social relationships
+-  **Uncertainty Quantification** using Bayesian methods
+-  **Self-Adaptive** system that automatically adjusts thresholds
+-  **Real-Time Performance** optimized for GPU acceleration (30+ FPS)
+-  **Production-Ready** with comprehensive error handling
 
 ### Use Cases
 
-- 🔒 **Security & Surveillance**: Automated monitoring of restricted areas
-- 🛍️ **Retail Analytics**: Customer flow analysis and VIP recognition
-- 🏫 **Smart Campus**: Attendance tracking and access control
-- 👮 **Law Enforcement**: Person of interest identification in crowds
-- 🎉 **Event Management**: VIP tracking and crowd behavior analysis
-- 🏥 **Healthcare**: Patient identification and safety monitoring
+-  **Security & Surveillance**: Automated monitoring of restricted areas
+-  **Retail Analytics**: Customer flow analysis and VIP recognition
+-  **Smart Campus**: Attendance tracking and access control
+-  **Law Enforcement**: Person of interest identification in crowds
+-  **Event Management**: VIP tracking and crowd behavior analysis
+-  **Healthcare**: Patient identification and safety monitoring
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 ### Multi-Model Face Detection Ensemble
 
@@ -135,7 +135,7 @@ Automatically identifies and classifies behaviors:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 VIDEO INPUT STREAM
@@ -191,7 +191,7 @@ VISUALIZATION & OUTPUT
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -276,7 +276,7 @@ pip install onnxruntime-gpu
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Basic Usage
 
@@ -325,11 +325,11 @@ reference_gallery/
 
 ### Best Practices for Gallery Images
 
-- ✅ Use high-quality, well-lit photos
-- ✅ Frontal faces work best
-- ✅ Multiple angles per person improve robustness
-- ✅ Minimum 3 images per person recommended
-- ✅ Resolution: 640x480 or higher
+-  Use high-quality, well-lit photos
+-  Frontal faces work best
+-  Multiple angles per person improve robustness
+-  Minimum 3 images per person recommended
+-  Resolution: 640x480 or higher
 
 ### Run Processing
 
@@ -825,7 +825,7 @@ For more information, visit my [portfolio](https://nogueiraelectronic.github.io/
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **InsightFace Team**: For excellent face recognition models
 - **FaceNet Authors**: David Sandberg and contributors
