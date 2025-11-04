@@ -508,7 +508,7 @@ save_heatmaps: bool = True
 
 ---
 
-## 🔬 Advanced Features
+##  Advanced Features
 
 ### 1. Graph Neural Network Enhancement
 
@@ -572,7 +572,7 @@ config.max_reid_attempts = 3
 
 ---
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Main Classes
 
@@ -663,7 +663,7 @@ for track in tracks:
 
 ---
 
-## 📊 Performance Benchmarks
+##  Performance Benchmarks
 
 ### Test Environment
 
@@ -765,7 +765,7 @@ config.quality_weight = 0.5
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use NEXUS in your research or project, please cite:
 
@@ -792,7 +792,7 @@ J. Torres Nogueira, "NEXUS v8.0 ULTIMATE: Advanced Face Recognition and Tracking
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
