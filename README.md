@@ -36,7 +36,7 @@
 
 ##  Overview
 
-**NEXUS v8.0 ULTIMATE** represents the cutting edge in automated face recognition and tracking technology. By combining multiple state-of-the-art deep learning models with advanced algorithms for social context understanding, motion prediction, and behavioral analysis, NEXUS delivers unprecedented accuracy and robustness in challenging real-world scenarios.
+**NEXUS v8.0 ULTIMATE** is my new project working on automated face recognition and tracking technology. By combining multiple state-of-the-art deep learning models with advanced algorithms for social context understanding, motion prediction, and behavioral analysis, NEXUS delivers unprecedented accuracy and robustness in challenging real-world scenarios.
 
 ### What Makes NEXUS Different
 
